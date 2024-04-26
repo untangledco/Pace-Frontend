@@ -1,0 +1,16 @@
+.checksPage {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+.checksList {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+}
+
+.checkItem {
+    padding: 1rem 0;
+    border-bottom: 1px solid #e0e0e0;
+}

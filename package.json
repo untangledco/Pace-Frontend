@@ -1,0 +1,22 @@
+{
+  "name": "pace-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "esbuild src/app.tsx --sourcemap=external --loader:.woff2=file --loader:.svg=file --outdir=src --bundle --servedir=src",
+    "build": "esbuild src/app.tsx --sourcemap=external --loader:.woff2=file --loader:.svg=file --outdir=dist --bundle --minify --sourcemap",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.20.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.74",
+    "@types/react-dom": "^18.2.24"
+  }
+}
